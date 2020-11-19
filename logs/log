@@ -1,0 +1,1217 @@
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 874-256-636
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 874-256-636
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 20:40:22] "GET / HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 20:40:22] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 20:40:22] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 20:40:22] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 20:40:22] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 20:40:22] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 20:40:22] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 20:40:22] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 20:40:22] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 20:40:22] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 20:40:22] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 20:40:22] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 20:40:22] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 20:40:22] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 20:40:22] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 20:40:22] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 20:40:22] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 20:40:22] "GET /api/v1.0/session HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 20:40:22] "GET /api/v1.0/houses/index HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 20:40:22] "GET /api/v1.0/areas HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 20:40:59] "GET //api/v1.0 HTTP/1.1" 404 -
+ERROR demo.py:16 error info
+WARNING demo.py:17 warn info
+INFO demo.py:18 info info
+DEBUG demo.py:19 debug info
+INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 20:41:15] "GET /api/v1.0/index HTTP/1.1" 200 -
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 874-256-636
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 20:44:56] "GET /api/v1.0/session HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 20:44:56] "GET /api/v1.0/houses/index HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 20:44:56] "GET /api/v1.0/areas HTTP/1.1" 404 -
+ERROR demo.py:16 error info
+WARNING demo.py:17 warn info
+INFO demo.py:18 info info
+DEBUG demo.py:19 debug info
+INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 20:45:05] "GET /api/v1.0/index HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 20:45:10] "GET /api/v1.0/login HTTP/1.1" 404 -
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 874-256-636
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 20:45:34] "GET /api/v1.0/login HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in 'D:\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 874-256-636
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR __init__.py:98 Error: Directory migrations already exists and is not empty
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:19:41] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:19:41] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:19:41] "[37mGET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:19:41] "[37mGET /static/css/reset.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:19:41] "[37mGET /static/plugins/swiper/css/swiper.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:19:41] "[37mGET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:19:41] "[37mGET /static/css/ihome/main.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:19:41] "[37mGET /static/css/ihome/index.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:19:41] "[37mGET /static/js/jquery.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:19:41] "[37mGET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:19:41] "[37mGET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:19:41] "[37mGET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:19:41] "[37mGET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:19:41] "[37mGET /static/js/template.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:19:41] "[37mGET /static/js/ihome/index.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:19:41] "[37mGET /static/images/logo@128x59.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:19:41] "[37mGET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:19:41] "[33mGET /api/v1.0/session HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:19:41] "[33mGET /api/v1.0/houses/index HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:19:41] "[33mGET /api/v1.0/areas HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:19:41] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:20:25] "[37mGET /auth.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:20:25] "[37mGET /static/css/ihome/profile.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:20:25] "[37mGET /static/js/jquery.form.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:20:25] "[37mGET /static/js/ihome/auth.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:20:25] "[33mGET /api/v1.0/users/auth HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:21:10] "[37mGET /booking.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:21:10] "[37mGET /static/css/ihome/booking.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:21:10] "[37mGET /static/js/ihome/booking.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:21:10] "[37mGET /static/images/home01.jpg HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:21:10] "[33mGET /api/v1.0/session HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:21:10] "[33mGET /api/v1.0/houses/undefined HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:21:25] "[33mGET /bog.html HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:21:30] "[37mGET /index.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:21:30] "[33mGET /api/v1.0/session HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:21:30] "[33mGET /api/v1.0/houses/index HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:21:30] "[33mGET /api/v1.0/areas HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:22:12] "[37mGET /detail.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:22:12] "[37mGET /static/css/ihome/detail.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:22:12] "[37mGET /static/js/ihome/detail.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:22:12] "[33mGET /api/v1.0/houses/undefined HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:45:51] "[37mGET /auth.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:45:52] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:45:52] "[37mGET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:45:52] "[37mGET /static/css/reset.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:45:52] "[37mGET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:45:52] "[37mGET /static/css/ihome/main.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:45:52] "[37mGET /static/css/ihome/profile.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:45:52] "[37mGET /static/js/jquery.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:45:52] "[37mGET /static/js/jquery.form.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:45:52] "[37mGET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:45:52] "[37mGET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:45:52] "[37mGET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:45:52] "[37mGET /static/js/ihome/auth.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:45:52] "[37mGET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:45:52] "[33mGET /api/v1.0/users/auth HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:45:52] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:46:16] "[37mGET /booking.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:46:16] "[37mGET /static/css/ihome/booking.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:46:16] "[37mGET /static/images/home01.jpg HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:46:16] "[37mGET /static/js/ihome/booking.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:46:16] "[33mGET /api/v1.0/session HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:46:16] "[33mGET /api/v1.0/houses/undefined HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:46:54] "[37mGET /detail.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:46:54] "[37mGET /static/plugins/swiper/css/swiper.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:46:54] "[37mGET /static/css/ihome/detail.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:46:54] "[37mGET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:46:54] "[37mGET /static/js/template.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:46:54] "[37mGET /static/js/ihome/detail.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:46:54] "[33mGET /api/v1.0/houses/undefined HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:47:11] "[37mGET /index.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:47:11] "[37mGET /static/css/ihome/index.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:47:11] "[37mGET /static/images/logo@128x59.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:47:11] "[37mGET /static/js/ihome/index.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:47:11] "[33mGET /api/v1.0/session HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:47:11] "[33mGET /api/v1.0/houses/index HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:47:11] "[33mGET /api/v1.0/areas HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:47:41] "[37mGET /login.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:47:41] "[37mGET /static/css/ihome/login.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:47:41] "[37mGET /static/js/ihome/login.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:48:01] "[37mGET /lorders.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:48:01] "[37mGET /static/css/ihome/orders.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:48:01] "[37mGET /static/js/ihome/lorders.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:48:01] "[33mGET /api/v1.0/user/orders?role=landlord HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:48:25] "[37mGET /my.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:48:25] "[37mGET /static/css/ihome/my.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:48:25] "[37mGET /static/js/ihome/my.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:48:25] "[33mGET /api/v1.0/user HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:49:16] "[37mGET /myhouse.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:49:16] "[37mGET /static/css/ihome/myhouse.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:49:16] "[37mGET /static/js/ihome/myhouse.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:49:16] "[33mGET /api/v1.0/users/auth HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:49:29] "[37mGET /newhouse.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:49:29] "[37mGET /static/css/ihome/newhouse.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:49:29] "[37mGET /static/js/ihome/newhouse.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:49:29] "[33mGET /api/v1.0/areas HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:52:12] "[37mGET /orders.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:52:12] "[37mGET /static/js/ihome/orders.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:52:12] "[33mGET /api/v1.0/user/orders?role=custom HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:52:24] "[37mGET /payComplete.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:52:24] "[31m[1mPUT /api/v1.0/order/payment HTTP/1.1[0m" 405 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:52:37] "[37mGET /profile.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:52:37] "[37mGET /static/js/ihome/profile.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:52:37] "[33mGET /api/v1.0/user HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:53:00] "[37mGET /register.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:53:00] "[37mGET /static/css/ihome/register.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:53:00] "[37mGET /static/js/ihome/register.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:53:00] "[33mGET /api/v1.0/image_codes/89058603-2d4f-41ca-9afd-ad31dda33291 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:53:25] "[37mGET /search.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:53:25] "[37mGET /static/css/ihome/search.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:53:25] "[37mGET /static/js/ihome/search.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 08:53:25] "[33mGET /api/v1.0/areas HTTP/1.1[0m" 404 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:03:37] "[33mGET /api/v1.0/session HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:03:37] "[33mGET /api/v1.0/houses/index HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:03:37] "[33mGET /api/v1.0/areas HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:03:47] "[37mGET //api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:05:47] "[37mGET //api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO csrf.py:258 The CSRF token is missing.
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:06:06] "[31m[1mPOST //api/v1.0/register HTTP/1.1[0m" 400 -
+INFO csrf.py:258 The CSRF token is missing.
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:06:09] "[31m[1mPOST //api/v1.0/register HTTP/1.1[0m" 400 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO csrf.py:258 The CSRF token is missing.
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:06:33] "[31m[1mPOST //api/v1.0/register HTTP/1.1[0m" 400 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:07:42] "[33mGET //api/v1.0/register HTTP/1.1[0m" 404 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:08:19] "[33mGET //api/v1.0/register HTTP/1.1[0m" 404 -
+INFO csrf.py:258 The CSRF token is missing.
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:08:27] "[31m[1mPOST //api/v1.0/register HTTP/1.1[0m" 400 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\__init__.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:10:45] "[37mPOST //api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:11:04] "[35m[1mPOST //api/v1.0/register HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:13:06] "[35m[1mPOST //api/v1.0/register HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:15:50] "[33mGET /api/v1.0/session HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:15:50] "[33mGET /api/v1.0/houses/index HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:15:50] "[33mGET /api/v1.0/areas HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:15:57] "[35m[1mPOST //api/v1.0/register HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:16:02] "[35m[1mPOST //api/v1.0/register HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:18:13] "[37mPOST //api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:34:40] "[35m[1mPOST //api/v1.0/register?mobile=123&password%20=1&password2 HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:38:28] "[33mGET //api/v1.0/register?mobile=123&password%20=1&password2 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:38:32] "[33mGET //api/v1.0/register?mobile=123&password%20=1&password2 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:39:13] "[31m[1mPOST //api/v1.0/ HTTP/1.1[0m" 405 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:40:58] "[35m[1mPOST //api/v1.0/register?mobile=123&password=123 HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:45:48] "[33mGET //api/v1.0/register HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:46:49] "[35m[1mPOST //api/v1.0/register HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:46:49] "[35m[1mPOST /api/v1.0/register HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:46:49] "[31m[1mPOST /api/v1.0/register HTTP/1.1[0m" 400 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:47:13] "[35m[1mPOST /api/v1.0/register HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:48:45] "[33mGET /api/v1.0/session HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:48:45] "[33mGET /api/v1.0/houses/index HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:48:45] "[33mGET /api/v1.0/areas HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:49:11] "[35m[1mGET /api/v1.0/register HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:49:12] "[37mGET /api/v1.0/register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:49:12] "[37mGET /api/v1.0/register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:49:12] "[37mGET /api/v1.0/register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:49:12] "[37mGET /api/v1.0/register?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:49:12] "[37mGET /api/v1.0/register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:49:12] "[37mGET /api/v1.0/register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:52:28] "[33mGET /api/v1.0/session HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:52:28] "[33mGET /api/v1.0/houses/index HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:52:28] "[33mGET /api/v1.0/areas HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:52:33] "[37mGET /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 09:53:27] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:03:36] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:04:30] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:05:55] "[31m[1mPOST /api/v1.0/register HTTP/1.1[0m" 400 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:06:14] "[33mGET /api/v1.0/register?mobile=123&password%20=123 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:13:18] "[31m[1mPOST /api/v1.0/register HTTP/1.1[0m" 400 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:13:35] "[33mGET /api/v1.0/register HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:13:52] "[32mGET /api/v1.0//login HTTP/1.1[0m" 308 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:13:52] "[37mGET /api/v1.0/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:13:58] "[35m[1mPOST /api/v1.0//login HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:14:12] "[35m[1mPOST /api/v1.0//register HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:17:59] "[35m[1mPOST /api/v1.0//register HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:18:31] "[35m[1mPOST /api/v1.0//register HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:18:39] "[35m[1mPOST /api/v1.0//register HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:18:42] "[35m[1mPOST /api/v1.0//register HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:18:42] "[35m[1mPOST /api/v1.0//register HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:18:52] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:19:12] "[31m[1mPOST /api/v1.0/register HTTP/1.1[0m" 400 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:20:19] "[31m[1mGET /api/v1.0/register?mobile=123&password%20=123 HTTP/1.1[0m" 400 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:20:21] "[31m[1mGET /api/v1.0/register?mobile=123&password%20=123 HTTP/1.1[0m" 400 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:20:21] "[31m[1mGET /api/v1.0/register?mobile=123&password%20=123 HTTP/1.1[0m" 400 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:20:22] "[31m[1mGET /api/v1.0/register?mobile=123&password%20=123 HTTP/1.1[0m" 400 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:24:39] "[35m[1mGET /api/v1.0/register?mobile=123&password%20=123 HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:24:55] "[35m[1mGET /api/v1.0/register?username=123&password=123 HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:24:56] "[35m[1mGET /api/v1.0/register?username=123&password=123 HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:24:57] "[35m[1mGET /api/v1.0/register?username=123&password=123 HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:26:01] "[35m[1mGET /api/v1.0/register?username=123&password=123 HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:26:25] "[33mGET /api/v1.0/session HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:26:25] "[33mGET /api/v1.0/houses/index HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:26:25] "[33mGET /api/v1.0/areas HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:26:58] "[35m[1mGET /api/v1.0/register?username=123,password=123 HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:26:58] "[37mGET /api/v1.0/register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:26:58] "[37mGET /api/v1.0/register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:26:58] "[37mGET /api/v1.0/register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:26:58] "[37mGET /api/v1.0/register?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:26:58] "[37mGET /api/v1.0/register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:26:58] "[37mGET /api/v1.0/register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:27:42] "[35m[1mGET /api/v1.0/register?mobile=123,password=123 HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:27:43] "[37mGET /api/v1.0/register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:27:43] "[37mGET /api/v1.0/register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:27:43] "[37mGET /api/v1.0/register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:27:43] "[37mGET /api/v1.0/register?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:27:43] "[37mGET /api/v1.0/register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:28:01] "[35m[1mGET /api/v1.0/register?mobile=123,password=123 HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:28:01] "[37mGET /api/v1.0/register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:28:01] "[37mGET /api/v1.0/register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:28:01] "[37mGET /api/v1.0/register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:28:01] "[37mGET /api/v1.0/register?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:28:01] "[37mGET /api/v1.0/register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:28:56] "[37mGET /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:30:59] "[37mGET /api/v1.0/register?username=123&password=123 HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:31:19] "[35m[1mGET /api/v1.0/register?mobile=123&password=123 HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:32:18] "[35m[1mGET /api/v1.0/register?mobile=123&password=123 HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:32:18] "[37mGET /api/v1.0/register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:32:18] "[37mGET /api/v1.0/register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:32:18] "[37mGET /api/v1.0/register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:32:18] "[37mGET /api/v1.0/register?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:32:18] "[37mGET /api/v1.0/register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:32:19] "[37mGET /api/v1.0/register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:36:16] "[35m[1mGET /api/v1.0/register?mobile=123&password=123 HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:36:17] "[37mGET /api/v1.0/register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:36:17] "[37mGET /api/v1.0/register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:36:17] "[37mGET /api/v1.0/register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:36:17] "[37mGET /api/v1.0/register?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:36:17] "[37mGET /api/v1.0/register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:44:11] "[35m[1mPOST /api/v1.0//register HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:44:55] "[35m[1mPOST /api/v1.0/register HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:47:31] "[35m[1mPOST /api/v1.0/register HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 10:49:45] "[35m[1mPOST /api/v1.0/register HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 15:41:28] "[37mPOST /api/v1.0/register?aaa=123&bb=123&ccc=123 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 15:42:51] "[33mGET /register.htm HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 15:43:30] "[33mGET /register.htm HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 15:43:30] "[33mGET /api/v1.0/session HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 15:43:30] "[33mGET /api/v1.0/houses/index HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 15:43:30] "[33mGET /api/v1.0/areas HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 15:43:30] "[33mGET /register.htm HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 15:43:32] "[33mGET /register.htm HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 15:43:40] "[33mGET /api/v1.0/users/auth HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 15:43:47] "[33mGET /api/v1.0/image_codes/7ce8f714-aa65-4f24-8217-b0090ef06de7 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 15:43:50] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 15:44:18] "[37mGET /register.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 15:44:18] "[37mGET /static/css/ihome/register.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 15:44:18] "[37mGET /static/js/ihome/register.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 15:44:18] "[33mGET /api/v1.0/image_codes/de9b99bd-c4c4-47e3-b8fc-f09f3b27209b HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 15:44:21] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 15:59:24] "[37mPOST /api/v1.0/register?aaa=123&bb=123&ccc=123 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:00:08] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:00:30] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:00:31] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:00:32] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:00:57] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:01:38] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:01:39] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:01:40] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:01:40] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:01:45] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:01:45] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:01:46] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:04:52] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:04:53] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:04:54] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:04:55] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:04:56] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:04:58] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:06:38] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:07:15] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:07:27] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:08:22] "[37mPOST /api/v1.0/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:09:15] "[35m[1mPOST /api/v1.0/login HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:09:31] "[37mPOST /api/v1.0/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:09:33] "[37mPOST /api/v1.0/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:09:57] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:09:58] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:09:59] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:10:00] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:10:00] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:10:31] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:10:32] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:11:29] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:14:27] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:28:38] "[31m[1mPOST /register HTTP/1.1[0m" 405 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:28:40] "[31m[1mPOST /register HTTP/1.1[0m" 405 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:30:04] "[31m[1mPOST /register HTTP/1.1[0m" 405 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:30:35] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:31:00] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:32:45] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:32:46] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:32:47] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:32:48] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:33:01] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:33:16] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:33:19] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:33:44] "[35m[1mPOST /api/v1.0/register HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:37:46] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:38:28] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:38:40] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:38:47] "[35m[1mPOST /api/v1.0/register HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:41:03] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:41:05] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:41:13] "[35m[1mPOST /api/v1.0/register HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:42:17] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:50:57] "[37mGET /login.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:50:57] "[37mGET /static/css/ihome/login.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:50:57] "[37mGET /static/js/ihome/login.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:56:26] "[35m[1mPOST /api/v1.0/login HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:56:37] "[35m[1mPOST /api/v1.0/login HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:58:44] "[37mPOST /api/v1.0/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:58:59] "[37mPOST /api/v1.0/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:59:00] "[37mPOST /api/v1.0/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:59:02] "[37mPOST /api/v1.0/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:59:36] "[37mPOST /api/v1.0/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 16:59:51] "[37mPOST /api/v1.0/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 17:00:12] "[37mPOST /api/v1.0/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 17:00:32] "[37mPOST /api/v1.0/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 17:00:39] "[37mPOST /api/v1.0/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 17:01:35] "[37mPOST /api/v1.0/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 17:02:35] "[37mPOST /api/v1.0/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 17:07:05] "[37mPOST /api/v1.0/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 17:07:13] "[37mPOST /api/v1.0/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 17:07:40] "[37mPOST /api/v1.0/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 17:07:45] "[37mPOST /api/v1.0/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 17:10:04] "[35m[1mPOST /api/v1.0/login HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 18:17:40] "[37mPOST /api/v1.0/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 18:17:45] "[37mPOST /api/v1.0/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 18:19:19] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 18:20:33] "[37mPOST /api/v1.0/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 18:20:37] "[37mPOST /api/v1.0/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 18:21:29] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 18:21:42] "[37mPOST /api/v1.0/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 18:29:48] "[37mPOST /api/v1.0/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 18:29:56] "[37mPOST /api/v1.0/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 18:30:05] "[37mPOST /api/v1.0/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 18:30:09] "[37mPOST /api/v1.0/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 18:30:15] "[37mPOST /api/v1.0/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 18:30:20] "[37mPOST /api/v1.0/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 18:32:41] "[37mGET /static/css/ihome/profile.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 18:32:41] "[37mGET /static/js/jquery.form.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 18:32:41] "[37mGET /static/js/ihome/auth.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 18:32:41] "[33mGET /api/v1.0/users/auth HTTP/1.1[0m" 404 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 18:38:27] "[35m[1mPOST /api/v1.0//auth HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 18:38:50] "[35m[1mPOST /api/v1.0//auth HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 18:38:52] "[35m[1mPOST /api/v1.0//auth HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 18:39:11] "[37mPOST /api/v1.0/auth HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 18:39:23] "[35m[1mPOST /api/v1.0/auth HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 18:43:41] "[37mPOST /api/v1.0/auth HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 18:43:43] "[37mPOST /api/v1.0/auth HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 18:44:44] "[37mPOST /api/v1.0/auth HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 19:06:06] "[35m[1mPOST /api/v1.0/login HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 19:06:49] "[37mPOST /api/v1.0/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 19:09:47] "[33mGET /api/v1.0/register?%20name=¿Óƒ˛&mobile=18434070956&password=123&password2=123 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 19:09:55] "[33mGET /api/v1.0/register?%20name=¿Óƒ˛&mobile=18434070957&password=123&password2=123 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 19:10:00] "[33mGET /api/v1.0/register?%20name=¿Óƒ˛1&mobile=18434070957&password=123&password2=123 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 19:10:16] "[33mGET /api/v1.0/register?%20name=¿Óƒ˛1&mobile=18434070957&password=123&password2=123 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 19:10:28] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 19:10:54] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 19:11:31] "[37mPOST /api/v1.0/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 19:12:10] "[37mPOST /api/v1.0/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:05:20] "[37mGET /api/v1.0/quit?mobile=18434070957&password=123 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:06:44] "[33mGET /api/v1.0/auth?real_name=¿Óƒ˛&id_card=142622199505104444 HTTP/1.1[0m" 404 -
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:07:12] "[33mGET /api/v1.0/auth?id_card=142622199505104444 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:07:13] "[33mGET /api/v1.0/auth?id_card=142622199505104444 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:07:51] "[37mPOST /api/v1.0/auth HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:08:04] "[37mPOST /api/v1.0/auth HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:08:55] "[37mPOST /api/v1.0/auth HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:10:11] "[35m[1mPOST /api/v1.0/auth HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:12:59] "[37mPOST /api/v1.0/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:13:18] "[37mPOST /api/v1.0/auth HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:13:23] "[37mPOST /api/v1.0/auth HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:17:32] "[37mPOST /api/v1.0/auth HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:18:35] "[37mGET /booking.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:18:35] "[37mGET /static/css/ihome/booking.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:18:35] "[37mGET /static/js/ihome/booking.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:18:35] "[37mGET /static/images/home01.jpg HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:18:35] "[33mGET /api/v1.0/session HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:18:35] "[33mGET /api/v1.0/houses/undefined HTTP/1.1[0m" 404 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\__init__.py', reloading
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:27:15] "[37mGET /detail.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:27:15] "[36mGET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:27:15] "[36mGET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:27:15] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:27:15] "[36mGET /static/plugins/swiper/css/swiper.min.css HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:27:15] "[37mGET /static/css/ihome/detail.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:27:15] "[36mGET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:27:15] "[36mGET /static/css/ihome/main.css HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:27:15] "[36mGET /static/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:27:15] "[36mGET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:27:15] "[36mGET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:27:15] "[37mGET /static/js/ihome/detail.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:27:15] "[36mGET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:27:15] "[36mGET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:27:15] "[36mGET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:27:15] "[36mGET /static/js/template.js HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:27:15] "[33mGET /api/v1.0/houses/undefined HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:27:27] "[33mGET /index.htm HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:27:44] "[37mGET /my.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:27:44] "[37mGET /static/css/ihome/my.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:27:44] "[37mGET /static/js/ihome/my.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:27:44] "[33mGET /api/v1.0/user HTTP/1.1[0m" 404 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:33:07] "[35m[1mGET /api/v1.0/info?id_card=142622199505444444&real_name=lining%20 HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:33:35] "[35m[1mGET /api/v1.0/info?id_card=142622199505444444&real_name=lining%20 HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:33:48] "[35m[1mGET /api/v1.0/info?id_card=142622199505444444&real_name=lining%20 HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:34:23] "[37mGET /api/v1.0/info?id_card=142622199505444444&real_name=lining%20 HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:35:36] "[37mGET /api/v1.0/info?id_card=142622199505444444&real_name=lining%20 HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:36:39] "[37mGET /orders.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:36:39] "[37mGET /static/css/ihome/orders.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:36:39] "[37mGET /static/js/ihome/orders.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:36:39] "[33mGET /api/v1.0/user/orders?role=custom HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:36:42] "[36mGET /auth.html HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:36:42] "[33mGET /api/v1.0/users/auth HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:36:52] "[31m[1mPOST /api/v1.0/users/auth HTTP/1.1[0m" 405 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:36:53] "[31m[1mPOST /api/v1.0/users/auth HTTP/1.1[0m" 405 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:36:54] "[31m[1mPOST /api/v1.0/users/auth HTTP/1.1[0m" 405 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:36:54] "[31m[1mPOST /api/v1.0/users/auth HTTP/1.1[0m" 405 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:36:57] "[37mGET /myhouse.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:36:57] "[37mGET /static/css/ihome/myhouse.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:36:57] "[37mGET /static/js/ihome/myhouse.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:36:57] "[33mGET /api/v1.0/users/auth HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:36:59] "[37mGET /lorders.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:36:59] "[37mGET /static/js/ihome/lorders.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:36:59] "[33mGET /api/v1.0/user/orders?role=landlord HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:37:01] "[31m[1mDELETE /api/v1.0/session HTTP/1.1[0m" 405 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:37:02] "[31m[1mDELETE /api/v1.0/session HTTP/1.1[0m" 405 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:37:03] "[31m[1mDELETE /api/v1.0/session HTTP/1.1[0m" 405 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:37:03] "[31m[1mDELETE /api/v1.0/session HTTP/1.1[0m" 405 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:37:05] "[37mGET /profile.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:37:05] "[37mGET /static/js/ihome/profile.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:37:05] "[33mGET /api/v1.0/user HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:37:14] "[31m[1mPOST /api/v1.0/users/avatar HTTP/1.1[0m" 405 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:37:37] "[37mGET /newhouse.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:37:37] "[37mGET /static/css/ihome/newhouse.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:37:37] "[37mGET /static/js/ihome/newhouse.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:37:37] "[33mGET /api/v1.0/areas HTTP/1.1[0m" 404 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\house.py', reloading
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:46:26] "[36mGET /newhouse.html HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:46:27] "[33mGET /api/v1.0/areas HTTP/1.1[0m" 404 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\house.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\house.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\house.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:49:23] "[35m[1mPOST /api/v1.0/issue HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\house.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:50:27] "[37mPOST /api/v1.0/issue HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:58:20] "[33mGET /api/v1.0/register HTTP/1.1[0m" 404 -
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:58:30] "[33mGET /api/v1.0/register HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:58:44] "[36mGET /static/images/logo@128x59.png HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 20:58:44] "[33mGET /api/v1.0/image_codes/b2ac69b9-c118-4ec6-8119-b7d5a3f6cde6 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [18/Nov/2020 21:01:34] "[33mGET /api/v1.0/houses/undefined HTTP/1.1[0m" 404 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\models.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 08:21:11] "[36mGET / HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 08:21:11] "[36mGET /static/css/ihome/index.css HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 08:21:11] "[36mGET /static/js/ihome/index.js HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 08:21:11] "[33mGET /api/v1.0/session HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 08:21:11] "[33mGET /api/v1.0/houses/index HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 08:21:11] "[33mGET /api/v1.0/areas HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 08:21:19] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 08:24:31] "[37mPOST /api/v1.0/issue HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\house.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\house.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 08:38:49] "[35m[1mPOST /api/v1.0/issue HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\house.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 08:52:14] "[35m[1mPOST /api/v1.0/issue HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\house.py', reloading
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 09:16:20] "[35m[1mPOST /api/v1.0/issue HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 09:16:58] "[37mGET /api/v1.0/quit?mobile=18434070957&password=123 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 09:17:02] "[37mPOST /api/v1.0/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 09:17:05] "[35m[1mPOST /api/v1.0/issue HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\house.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 09:18:30] "[35m[1mPOST /api/v1.0/issue HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\house.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 09:21:40] "[35m[1mPOST /api/v1.0/issue HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\house.py', reloading
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 09:21:59] "[35m[1mPOST /api/v1.0/issue HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 09:23:13] "[35m[1mPOST /api/v1.0/issue HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\house.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 09:23:48] "[35m[1mPOST /api/v1.0/issue HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 09:24:34] "[35m[1mPOST /api/v1.0/issue HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 09:26:54] "[37mPOST /api/v1.0/issue HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 15:23:33] "[37mPOST /api/v1.0/issue HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 15:29:28] "[37mGET /profile.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 15:29:28] "[36mGET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 15:29:28] "[36mGET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 15:29:28] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 15:29:28] "[36mGET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 15:29:28] "[36mGET /static/css/ihome/main.css HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 15:29:28] "[36mGET /static/css/ihome/profile.css HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 15:29:28] "[37mGET /static/js/ihome/profile.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 15:29:28] "[36mGET /static/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 15:29:28] "[36mGET /static/js/jquery.form.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 15:29:28] "[36mGET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 15:29:29] "[36mGET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 15:29:29] "[36mGET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 15:29:29] "[36mGET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 15:29:29] "[33mGET /api/v1.0/user HTTP/1.1[0m" 404 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 15:54:00] "[31m[1mPOST /api/v1.0/users/avatar HTTP/1.1[0m" 405 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 15:54:21] "[31m[1mPOST /api/v1.0/users/avatar HTTP/1.1[0m" 405 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 15:54:22] "[31m[1mPOST /api/v1.0/users/avatar HTTP/1.1[0m" 405 -
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 15:57:52] "[31m[1mPOST /api/v1.0/users/avatar HTTP/1.1[0m" 405 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 15:58:32] "[31m[1mPOST /api/v1.0/users/avatar HTTP/1.1[0m" 405 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 15:58:35] "[31m[1mPOST /api/v1.0/users/avatar HTTP/1.1[0m" 405 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 15:58:35] "[31m[1mPOST /api/v1.0/users/avatar HTTP/1.1[0m" 405 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 15:58:37] "[31m[1mPOST /api/v1.0/users/avatar HTTP/1.1[0m" 405 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 19:27:09] "[37mGET /myhouse.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 19:27:09] "[37mGET /static/css/ihome/myhouse.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 19:27:09] "[37mGET /static/js/ihome/myhouse.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 19:27:09] "[36mGET /static/js/template.js HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 19:27:09] "[33mGET /api/v1.0/users/auth HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 19:28:36] "[33mGET /newhouse.htm HTTP/1.1[0m" 404 -
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 19:28:48] "[33mGET /newhouse.htm HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 19:29:01] "[37mGET /newhouse.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 19:29:01] "[37mGET /static/css/ihome/newhouse.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 19:29:01] "[37mGET /static/js/ihome/newhouse.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 19:29:01] "[33mGET /api/v1.0/areas HTTP/1.1[0m" 404 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 19:36:35] "[37mGET /api/v1.0/info?id_card=142622199505444444&real_name=lining%20 HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 19:38:08] "[35m[1mGET /api/v1.0/upinfo?id_card=142622199505444444&real_name=lining%20 HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\±æ»À“—À¿”– ¬…’÷Ω\\Desktop\\aijia01\\ihome\\api_1_0\\users.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 111-875-678
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [19/Nov/2020 19:38:39] "[37mGET /api/v1.0/upinfo?id_card=142622199505444444&real_name=lining%20 HTTP/1.1[0m" 200 -
