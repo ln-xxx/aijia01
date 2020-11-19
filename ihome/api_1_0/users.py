@@ -132,14 +132,26 @@ def info():
 
 
 #修改个人信息
+#先查看个人信息
 @api.route('/upinfo',methods=['GET'])
 def upinfo():
     a = session.get("user_id")
     b = User.query.get(int(a))
     return jsonify(errno=RET.OK, errmsg="OK", data=b.to_dict())
 
-
+#在修改个人信息
 @api.route('upinfo1',methods=['POST'])
 def upinfo1():
-    pass
+    a = session.get("user_id")
+    print(a)
+    mobile = request.form.get("mobile")
+    name = request.form.get('name')
+    if not all([mobile,name]):
+        return jsonify(errno=RET.DATAERR, errmsg="检查数据的完整")
+    b = User.query.get(a)
+    b.mobile=mobile
+    b.name=name
+    db.session.commit()
+    return jsonify(errno=RET.OK, errmsg="修改成功")
+
 
