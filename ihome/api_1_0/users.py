@@ -112,11 +112,11 @@ def auth():
         return jsonify(errno=RET.DATAERR, errmsg="数据不完整")
     if not re.match(r"[1-9]\d{13,16}[0-9x]",id_card):
         return jsonify(errno=RET.DATAERR, errmsg="身份证信息错误")
-    a = session.get("user_id")
-    b = User.query.filter(User.id==a).first()
-    b.real_name=real_name
-    b.id_card = id_card
-    db.session.commit()
+    # a = session.get("user_id")
+    # b = User.query.filter(User.id==a).first()
+    # b.real_name=real_name
+    # b.id_card = id_card
+    # db.session.commit()
 
 
 

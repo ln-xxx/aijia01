@@ -1,5 +1,7 @@
 # coding:utf-8
 #房屋信息
+from kombu.utils import json
+
 from ihome.utils.response_code import RET
 from . import api
 from ihome import db, models
@@ -54,6 +56,11 @@ def issue():
     return jsonify(errno=RET.OK, errmsg="发布成功")
 
 
-
-
-
+# 显示全部的房源信息
+@api.route('/look_over',methods=['GET'])
+def look_over():
+    area_dict_li = []
+    a = House.query.all()
+    for area in a:
+        area_dict_li.append(area.to_basic_dict())
+    return jsonify(errno=RET.OK, errmsg="OK", data=area_dict_li)

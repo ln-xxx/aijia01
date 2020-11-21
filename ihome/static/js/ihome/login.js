@@ -3,54 +3,59 @@ function getCookie(name) {
     return r ? r[1] : undefined;
 }
 
-$(document).ready(function() {
-    $("#mobile").focus(function(){
+$(document).ready(function () {
+    console.log('进入登陆验证....');
+    $("#mobile").focus(function () {
         $("#mobile-err").hide();
     });
-    $("#password").focus(function(){
+    $("#password").focus(function () {
         $("#password-err").hide();
     });
-    $(".form-login").submit(function(e){
-        e.preventDefault();
-        mobile = $("#mobile").val();
-        passwd = $("#password").val();
+//处理表单添加提交事件
+    $('.form-login').submit(function (e) {
+        e.preventDefault(); //阻止表单默认的提交行为
+//1. 找数据
+        mobile = $('#mobile').val();
+        passwd = $('#password').val();
+        console.log('手机' + mobile + '密码:' + passwd);
+//2. 前端校验
+        var reg_mobile = /^1[3456789]\d{9}$/;
+//reg_mobile.test(reg_mobile)==false
         if (!mobile) {
-            $("#mobile-err span").html("请填写正确的手机号！");
-            $("#mobile-err").show();
-            return;
-        } 
-        if (!passwd) {
-            $("#password-err span").html("请填写密码!");
-            $("#password-err").show();
+            $('#mobile-err span').html('请输入正确手机号');
+            $('#mobile-err').show();
             return;
         }
-        // 将表单的数据存放到对象data中
-        var data = {
-            mobile: mobile,
-            password: passwd
-        };
-        // 将data转为json字符串
-        var jsonData = JSON.stringify(data);
+//密码强度
+        var reg_pwd = /^.*(?=.{6,})(?=.*\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[!@#$%^&*?]).*$/;
+        if (!passwd) {
+            $('#password-err span').html('密码最少6位，包括至少1个大写字母，1个小写字母，1个数字，1个特殊字符')
+            $('#password-err').show();
+            return;
+        }
+        // alert('做ajax');
+//3. 做ajax
         $.ajax({
-            url:"/api/v1.0/sessions",
-            type:"post",
-            data: jsonData,
-            contentType: "application/json",
-            dataType: "json",
-            headers:{
-                "X-CSRFToken":getCookie("csrf_token")
+            url: '/api/v1.0/login',
+            type: 'POST',
+            data: {'mobile': mobile, 'password': passwd},
+            dataType: 'json',
+            headers: {
+                "X-CSRFToken": getCookie("csrf_token")
             },
-            success: function (data) {
-                if (data.errno == "0") {
-                    // 登录成功，跳转到主页
-                    location.href = "/";
-                }
-                else {
-                    // 其他错误信息，在页面中展示
-                    $("#password-err span").html(data.errmsg);
-                    $("#password-err").show();
+            success: function (res) {
+                console.log(res);
+                if (res.errno == '0') {
+                    location.href = 'index.html' //js跳转
+                } else {
+                    console.log('错误');
+                    console.log(res);
+                    $('#password-err span').html(res.errmsg);
+                    $('#password-err').show()
                 }
             }
-        });
-    });
+        })
+    })
 })
+
+
