@@ -1,22 +1,18 @@
 # coding:utf-8
 import re
-
-from flask import g, current_app, jsonify, request, session
-import json
-
-from ihome.constants import IMAGE_CODE_REDIS
+from flask import g, current_app, jsonify, request, session, make_response
+from ihome.utils.captcha1.captcha import captcha
+from ihome.utils.sms_conde111 import send_sms, get_code
 from . import api
 from ihome.utils.response_code import RET
 from ihome import db, models, redis_store
-# import logging
 from flask import current_app, request
 from ihome.models import *
-from ihome.utils.image_storage import storage
 
 #注册
 @api.route('/register', methods=["POST"])
 def register():
-    name = request.form.get('name')
+    name = request.form.get('mobile')
     mobile = request.form.get('mobile')
     password = request.form.get('password')
     password2 = request.form.get('password2')
@@ -154,4 +150,25 @@ def upinfo1():
     db.session.commit()
     return jsonify(errno=RET.OK, errmsg="修改成功")
 
+#短信验证
+@api.route('sms_conde/<mm>',methods=['GET'])
+def smsz_conde(mm):
+    bb=get_code(6, False)
+    print(bb)
+    send_sms(mm,bb )
+    return jsonify(errno=RET.OK, errmsg="短信发送成功！！！")
+
+
+#图片验证
+@api.route('/img_conde',methods=['GET'])
+def img_conde():
+    #调用图形验证
+    # img,draw,text  = generate_captcha()
+    # response = make_response(img)
+    # response.headers["Content-Type"] = "image/jpg"
+    name, text, image = captcha.generate_captcha()
+    response = make_response(image)
+    response.headers['Content-Type'] = 'image/jpg'
+    print(text)
+    return response
 

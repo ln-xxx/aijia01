@@ -8,11 +8,43 @@ from ihome import db, models
 from flask import current_app, request, jsonify, session
 from ihome.models import *
 
+#客户订单
+@api.route('/goods1')
+def goods1():
+    
+    pass
+
 
 #预定
 @api.route("/reserve")
 def reserve():
-   pass
+    #获取前端的时间 和结束时间
+    #获取前端的价钱
+    #计算价钱
+    #保存redis 数据库
+    #返回预定成功页面
+    pass
+   # aaa = request.form.get('aaa')
+   # bbb = request.form.get('bbb')
+#搜索页面
+
+@api.route("/find7")
+def find7():
+    #获取前端的数据  城区 和时间
+    #判断前端数据是否有效
+    # 数据库多条件查询
+    #返回展示页面
+    pass
+
+
+#房屋详情页面
+@api.route('details1')
+def details1():
+    # 前端给的 房屋id
+    # 按照id   去数据库查找
+    #返回数据
+    pass
+
 
 #发布房源
 @api.route('/issue',methods=['POST'])
