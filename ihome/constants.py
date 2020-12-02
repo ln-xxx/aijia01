@@ -20,7 +20,10 @@ LOGIN_ERROR_MAX_TIMES = 5
 LOGIN_ERROR_FORBID_TIME = 600
 
 # 七牛的域名
-QINIU_URL_DOMAIN = "http://o91qujnqh.bkt.clouddn.com/"
+# 七牛的域名
+# QINIU_URL_DOMAIN = "http://qk19yvizy.hn-bkt.clouddn.com/FpEOZK_qfeOItd0BzRCjCAXrLpDd"
+# "http://qk19yvizy.hn-bkt.clouddn.com/FnNGl1Npl7TKs6wcuyC1V4gORyRx
+QINIU_URL_DOMAIN = "http://qk19yvizy.hn-bkt.clouddn.com/FllnmbhqWjA6WooSj_F5Hqfw2pJ4"
 
 # 城区信息的缓存时间, 单位：秒
 AREA_INFO_REDIS_CACHE_EXPIRES = 7200

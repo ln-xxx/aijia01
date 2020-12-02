@@ -1,21 +1,39 @@
 # coding:utf-8
 import re
-from flask import g, current_app, jsonify, request, session, make_response
+
+from flask import current_app, request
+from flask import jsonify, session, make_response
+
+from ihome import redis_store
+from ihome.models import *
 from ihome.utils.captcha1.captcha import captcha
+from ihome.utils.response_code import RET
 from ihome.utils.sms_conde111 import send_sms, get_code
 from . import api
-from ihome.utils.response_code import RET
-from ihome import db, models, redis_store
-from flask import current_app, request
-from ihome.models import *
+
+@api.route("/session",methods=["GET"])
+def check_login():
+    """检查登录状态"""
+    # 尝试从session中获取用户名
+    name = session.get("name")
+    # 如果session中name名字存在则表示用户已经登录，否则未登录
+    if name is not None:
+        return jsonify(errno=RET.OK,errmsg="true",data={"name":name})
+    else:
+        return jsonify(errno=RET.SESSIONERR, errmsg="false")
 
 #注册
 @api.route('/register', methods=["POST"])
 def register():
+    # imageCodeId = request.form.get('aa')
     name = request.form.get('mobile')
     mobile = request.form.get('mobile')
+    imagecode = request.form.get('imagecode')
+    phonecode = request.form.get('phonecode')
     password = request.form.get('password')
     password2 = request.form.get('password2')
+    real_sms_code = str(redis_store.get("sms_code_%s" % mobile), encoding="utf-8")
+    print(real_sms_code)
     print(mobile,password2,password)
     if not all([mobile,password,password2,name]):
         return jsonify(errno= RET.PARAMERR  , errmsg="参数错误")
@@ -32,6 +50,11 @@ def register():
     name2 = User.query.filter(User.mobile ==mobile).all()
     if name2:
         return jsonify(errno=RET.PARAMERR, errmsg="手机号已存在！！！！")
+    if real_sms_code != phonecode:
+        print(real_sms_code)
+        print(phonecode)
+        return jsonify(errno=RET.DATAERR, errmsg="手机验证码错误")
+
 
     mobile11 = User(mobile=mobile,password=password,name=name)
     db.session.add(mobile11)
@@ -108,11 +131,11 @@ def auth():
         return jsonify(errno=RET.DATAERR, errmsg="数据不完整")
     if not re.match(r"[1-9]\d{13,16}[0-9x]",id_card):
         return jsonify(errno=RET.DATAERR, errmsg="身份证信息错误")
-    # a = session.get("user_id")
-    # b = User.query.filter(User.id==a).first()
-    # b.real_name=real_name
-    # b.id_card = id_card
-    # db.session.commit()
+    a = session.get("user_id")
+    b = User.query.filter(User.id==a).first()
+    b.real_name=real_name
+    b.id_card = id_card
+    db.session.commit()
 
 
 
@@ -120,22 +143,15 @@ def auth():
 
 #个人信息
 
-@api.route('/info',methods=['GET'])
-def info():
-    a = session.get("user_id")
-    b = User.query.get(int(a))
-    return jsonify(errno=RET.OK, errmsg="OK", data=b.auth_to_dict())
-
-
-#修改个人信息
-#先查看个人信息
 @api.route('/upinfo',methods=['GET'])
 def upinfo():
     a = session.get("user_id")
     b = User.query.get(int(a))
     return jsonify(errno=RET.OK, errmsg="OK", data=b.to_dict())
 
-#在修改个人信息
+
+#修改个人信息
+#先查看个人信息
 @api.route('upinfo1',methods=['POST'])
 def upinfo1():
     a = session.get("user_id")
@@ -150,18 +166,35 @@ def upinfo1():
     db.session.commit()
     return jsonify(errno=RET.OK, errmsg="修改成功")
 
-#短信验证
+@api.route('/info',methods=['GET'])
+def info():
+    a = session.get("user_id")
+    b = User.query.get(int(a))
+    return jsonify(errno=RET.OK, errmsg="OK", data=b.auth_to_dict())
+#在修改个人信息
+
 @api.route('sms_conde/<mm>',methods=['GET'])
 def smsz_conde(mm):
     bb=get_code(6, False)
     print(bb)
     send_sms(mm,bb )
+    try:
+        redis_store.setex("sms_code_%s" % mm, constants.SMS_CODE_REDIS_EXPIRES, bb)
+        # 保存发送给这个手机号码的记录，防止用户60秒内再次发出发送验证码的请求
+        redis_store.setex("send_sms_code_%s" % mm, constants.SEND_SMS_CODE_INTERVAL, 1)
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR, errmsg="保存短信验证码异常")
     return jsonify(errno=RET.OK, errmsg="短信发送成功！！！")
+#短信验证
 
 
 #图片验证
-@api.route('/img_conde',methods=['GET'])
-def img_conde():
+
+
+
+@api.route('/image_codes/<image_code_id>',methods=['GET'])
+def img_conde(image_code_id):
     #调用图形验证
     # img,draw,text  = generate_captcha()
     # response = make_response(img)
@@ -169,6 +202,13 @@ def img_conde():
     name, text, image = captcha.generate_captcha()
     response = make_response(image)
     response.headers['Content-Type'] = 'image/jpg'
-    print(text)
-    return response
+    try:
 
+        redis_store.setex("image_code_%s" % image_code_id, constants.IMAGE_CODE_REDIS_EXPIRES, text)
+
+
+
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DATAERR, errmsg="保存图片验证码失败")
+    return response

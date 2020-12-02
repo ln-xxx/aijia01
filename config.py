@@ -21,6 +21,10 @@ class Config(object):
     SESSION_USE_SIGNER = True  # 对cookie中session_id进行隐藏处理
     PERMANENT_SESSION_LIFETIME = 86400  # session数据的有效期，单位秒
 
+    #邮箱验证
+    # bzoaoyqhgybtjegd
+
+    # kkanjvzixtwhhbcf
 
 class DevelopmentConfig(Config):
     """开发模式的配置信息"""

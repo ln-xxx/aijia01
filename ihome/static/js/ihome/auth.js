@@ -12,7 +12,7 @@ $(document).ready(function () {
 //1. 找数据
         realname = $('#real-name').val();
         idcard = $('#id-card').val();
-        console.log('手机' + realname + '密码:' + idcard);
+        console.log('姓名' + realname + '身份证:' + idcard);
 // //3. 做ajax
         $.ajax({
             url: '/api/v1.0/auth',

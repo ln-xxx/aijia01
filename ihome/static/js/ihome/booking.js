@@ -27,7 +27,7 @@ function showErrorMsg() {
 $(document).ready(function(){
     // 判断用户是否登录
     $.get("/api/v1.0/session", function(resp) {
-        if ("0" != resp.errno) {
+        if ("0" !== resp.errno) {
             location.href = "/login.html";
         }
     }, "json");

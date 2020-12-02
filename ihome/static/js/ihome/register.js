@@ -3,20 +3,36 @@ function getCookie(name) {
     return r ? r[1] : undefined;
 }
 
+var imageCodeId = "";
+function generateUUID() {
+    var d = new Date().getTime();
+    if(window.performance && typeof window.performance.now === "function"){
+        d += performance.now(); //use high-precision timer if available
+    }
+    var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+        var r = (d + Math.random()*16)%16 | 0;
+        d = Math.floor(d/16);
+        return (c=='x' ? r : (r&0x3|0x8)).toString(16);
+    });
+    return uuid;
+}
+function generateImageCode() {
+    //生成图片验证码的后端地址，设置到页面中，让浏览器请求验证码图片
+    //1.生成图片验证码的编号
+    imageCodeId = generateUUID();
+    //指定图片url
+    var url = "/api/v1.0/image_codes/" + imageCodeId;
+    $(".image-code img").attr("src",url)
+}
+
 function sendSMSCode() {
     // 点击发送短信验证码后被执行的函数
     $(".phonecode-a").removeAttr("onclick");
     var mobile = $("#mobile").val();
     $.get("/api/v1.0/sms_conde/" + mobile)
-}  // resp是后端返回的响应值，因为后端返回的是json字符串，
-
-function generateImageCode() {
-    //生成图片验证码的后端地址，设置到页面中，让浏览器请求验证码图片
-    //1.生成图片验证码的编号
-    //指定图片url
-    var url = "/api/v1.0/img_conde"
-    $(".image-code img").attr("src", url)
 }
+
+
 
 $(document).ready(function () {
     console.log('进入注册验证.');
@@ -33,7 +49,8 @@ $(document).ready(function () {
         mobile = $('#mobile').val();
         password = $('#password').val();
         password2 = $('#password2').val();
-        console.log('手机' + mobile + '密码:' + password + '密码2:' + password2);
+        phonecode = $('#phonecode').val();
+        console.log('手机' + mobile + '密码:' + password + '密码2:' + password2+phonecode);
 
 
 // //2. 前端校验
@@ -56,7 +73,7 @@ $(document).ready(function () {
         $.ajax({
             url: '/api/v1.0/register',
             type: 'POST',
-            data: {'mobile': mobile, 'password': password, 'password2': password2},
+            data: {'mobile': mobile, 'password': password, 'password2': password2,'aa':imageCodeId,'phonecode':phonecode},
             dataType: 'json',
             headers: {
                 "X-CSRFToken": getCookie("csrf_token")
@@ -75,5 +92,6 @@ $(document).ready(function () {
         })
     })
 })
+
 
 
