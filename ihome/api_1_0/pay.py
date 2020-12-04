@@ -8,33 +8,37 @@ from ihome.utils.response_code import RET
 from ihome import constants, db
 import os
 
-
 from alipay import AliPay, DCAliPay, ISVAliPay
 from alipay.utils import AliPayConfig
 import os
-app_private_key_string = open(".\keys\keysapp_private_key").read()
 
-alipay_public_key_string = open(".\keys/alipay_public_key").read()
+app_private_key_string = open(os.getcwd()+"\ihome/api_1_0\keys\keysapp_private_key").read()
+# app_private_key_string = open(".\keys\keysapp_private_key").read()
+alipay_public_key_string = open(os.getcwd()+"\ihome/api_1_0\keys/alipay_public_key").read()
 
 
+@ api.route("/orders/<int:order_id>/payment", methods=["POST"])
+@login_required
 
-# @api.route("/orders/<int:order_id>/payment", methods=["POST"])
-@api.route("/ordersss", methods=["POST"])
-# @login_requireds
-# def order_pay(order_id):
-def order_pay():
+
+def order_pay(order_id):
+
     """发起支付宝支付"""
-    # user_id = g.user_id
-    #
-    # # 判断订单状态
-    # try:
-    #     order = Order.query.filter(Order.id == order_id, Order.user_id == user_id, Order.status == "WAIT_PAYMENT").first()
-    # except Exception as e:
-    #     current_app.logger.error(e)
-    #     return jsonify(errno=RET.DBERR, errmsg="数据库异常")
-    #
-    # if order is None:
-    #     return jsonify(errno=RET.NODATA, errmsg="订单数据有误")
+    user_id = g.user_id
+    # user_id = 7
+    # app_private_key_string = open("./keys\keysapp_private_key").read()
+    # alipay_public_key_string = open("./keys/alipay_public_key").read()
+
+    # 判断订单状态
+    try:
+        order = Order.query.filter(Order.id == order_id, Order.user_id == user_id,
+                                   Order.status == "WAIT_PAYMENT").first()
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR, errmsg="数据库异常")
+
+    if order is None:
+        return jsonify(errno=RET.NODATA, errmsg="订单数据有误")
 
     # 创建支付宝sdk的工具对象
     alipay = AliPay(
@@ -73,11 +77,11 @@ def save_order_payment_result():
 
     # 创建支付宝sdk的工具对象
     alipay_client = AliPay(
-        appid="2016081600258081",
+        appid="2016110400791021",
         app_notify_url=None,  # 默认回调url
-        app_private_key_string=app_private_key_path,  # 私钥
+        app_private_key_string=app_private_key_string,  # 私钥
         # 支付宝公钥，验证支付宝回传消息使用，不是你自己的公钥
-        alipay_public_key_string=alipay_public_key_path,
+        alipay_public_key_string=alipay_public_key_string,
         # 支付宝的公钥，验证支付宝回传消息使用，不是你自己的公钥,
         sign_type="RSA2",  # RSA 或者 RSA2
         debug=True  # 默认False
@@ -99,11 +103,3 @@ def save_order_payment_result():
             db.session.rollback()
 
     return jsonify(errno=RET.OK, errmsg="OK")
-
-
-
-
-
-
-
-

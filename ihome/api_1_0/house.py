@@ -1,5 +1,3 @@
-
-
 from . import api
 from flask import g, current_app, jsonify, request, session
 from ihome.utils.response_code import RET
@@ -9,6 +7,7 @@ from ihome.utils.commons import login_required
 from ihome.utils.image_storage import storage
 from datetime import datetime
 import json
+
 
 # 获取城区信息
 @api.route("/areas")
@@ -90,7 +89,8 @@ def save_house_info():
     max_days = request.form.get("max_days")  # 最大入住天数
 
     # 校验参数
-    if not all([title, price, area_id, address, room_count, acreage, unit, capacity, beds, deposit, min_days, max_days]):
+    if not all(
+            [title, price, area_id, address, room_count, acreage, unit, capacity, beds, deposit, min_days, max_days]):
         return jsonify(errno=RET.PARAMERR, errmsg="参数不完整")
 
     # 判断金额是否正确
@@ -157,6 +157,7 @@ def save_house_info():
     # 保存数据成功
     return jsonify(errno=RET.OK, errmsg="OK", data={"house_id": house.id})
 
+
 #  房屋图片保存
 @api.route("/houses/image", methods=["POST"])
 # @login_required
@@ -209,6 +210,7 @@ def save_house_image():
     image_url = constants.QINIU_URL_DOMAIN + file_name
 
     return jsonify(errno=RET.OK, errmsg="OK", data={"image_url": image_url})
+
 
 # 获取 房东发布的房源信息
 @api.route("/user/houses", methods=["GET"])
@@ -273,6 +275,7 @@ def get_house_index():
             current_app.logger.error(e)
 
         return '{"errno":0, "errmsg":"OK", "data":%s}' % json_houses, 200, {"Content-Type": "application/json"}
+
 
 # 获取 房屋详情
 @api.route("/houses/<int:house_id>", methods=["GET"])
@@ -461,20 +464,3 @@ def get_house_list():
             current_app.logger.error(e)
 
     return resp_json, 200, {"Content-Type": "application/json"}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

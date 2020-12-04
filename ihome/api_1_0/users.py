@@ -4,14 +4,17 @@ import re
 from flask import current_app, request
 from flask import jsonify, session, make_response
 
+
 from ihome import redis_store
 from ihome.models import *
 from ihome.utils.captcha1.captcha import captcha
 from ihome.utils.response_code import RET
 from ihome.utils.sms_conde111 import send_sms, get_code
+
 from . import api
 
-@api.route("/session",methods=["GET"])
+
+@api.route("/session", methods=["GET"])
 def check_login():
     """检查登录状态"""
     # 尝试从session中获取用户名
@@ -23,7 +26,7 @@ def check_login():
         return jsonify(errno=RET.SESSIONERR, errmsg="false")
 
 #注册
-@api.route('/register', methods=["POST"])
+@api.route("/users", methods=["POST"])
 def register():
     # imageCodeId = request.form.get('aa')
     name = request.form.get('mobile')
@@ -62,7 +65,7 @@ def register():
     return jsonify(errno=RET.OK, errmsg="注册成功")
 
 #登录页面
-@api.route("/login",methods=["POST"])
+@api.route("/sessions", methods=["POST"])
 def login():
     mobile=request.form.get('mobile')
     password=request.form.get('password')
@@ -116,14 +119,14 @@ def login():
     return jsonify(errno=RET.OK, errmsg="登录成功")
 
 # 退出登录
-@api.route('/quit',methods=['GET'])
+@api.route("/session", methods=["DELETE"])
 def quit():
     session.clear()
     return jsonify(errno=RET.OK, errmsg="OK")
 
 
 #实名认证
-@api.route("/auth",methods=["POST"])
+@api.route("/users/auth", methods=["POST"])
 def auth():
     real_name = request.form.get('real_name')
     id_card = request.form.get('id_card')
@@ -143,7 +146,7 @@ def auth():
 
 #个人信息
 
-@api.route('/upinfo',methods=['GET'])
+@api.route("/user", methods=["GET"])
 def upinfo():
     a = session.get("user_id")
     b = User.query.get(int(a))
@@ -152,7 +155,7 @@ def upinfo():
 
 #修改个人信息
 #先查看个人信息
-@api.route('upinfo1',methods=['POST'])
+@api.route("/users/name", methods=["PUT"])
 def upinfo1():
     a = session.get("user_id")
     print(a)

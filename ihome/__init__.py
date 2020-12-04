@@ -11,7 +11,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 from ihome.utils.commons import ReConverter
 from sqlalchemy import create_engine
-
+from flask_mail import Mail
 import pymysql
 pymysql.install_as_MySQLdb()
 
@@ -43,6 +43,9 @@ def create_app(config_name):
     :return:
     """
     app = Flask(__name__)
+    # 发邮件
+
+
 
     # 根据配置模式的名字获取配置参数的类
     config_class = config_map.get(config_name)
