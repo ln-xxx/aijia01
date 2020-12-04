@@ -1,6 +1,6 @@
 from aip import AipOcr
 import json
-
+ # 身份证 识别
 """ 你的 APPID AK SK """
 APP_ID = '23053404'
 API_KEY = '4fektc6XrMhx2zVBCi74yWGo'

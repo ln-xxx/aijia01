@@ -121,7 +121,7 @@ def get_user_orders():
 
     return jsonify(errno=RET.OK, errmsg="OK", data={"orders": orders_dict_list})
 
-
+# 房东  接单 和拒单
 @api.route("/orders/<int:order_id>/status", methods=["PUT"])
 @login_required
 def accept_reject_order(order_id):
@@ -167,7 +167,7 @@ def accept_reject_order(order_id):
 
     return jsonify(errno=RET.OK, errmsg="OK")
 
-
+# 评论房屋
 @api.route("/orders/<int:order_id>/comment", methods=["PUT"])
 @login_required
 def save_order_comment(order_id):
